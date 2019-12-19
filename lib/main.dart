@@ -22,7 +22,7 @@ class Home extends StatelessWidget {
       body: Center(
         child: IconButton(
           onPressed: (){
-            print('you clicked me'),
+            print('you clicked me');
           },
           icon: Icon(Icons.alternate_email),
           color: Colors.amber,
